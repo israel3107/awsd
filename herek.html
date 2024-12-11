@@ -7,7 +7,7 @@
         height: 100px;
     }
        #demon2 {
-      background: rgb(80 ,60 , 90);
+      background: red;
         width:70%;
         height: 100px;
     }
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<h3>bienbenidos a mi imperio.</h3>
+<h3>bienvenidos a mi imperio.</h3>
     <h2 id="demon1"> en el infierno esperamos tu alma</h2>
     <h2 id="demon2">tu sagre y tu cuepo es dinero para el imperio</h2>
     <h2 id="demon3"> tifteret</h2>
@@ -29,9 +29,11 @@
 <script>
     var nombreintroducido = prompt("¿quien es el mejor");
     document.write (nombreintroducido);
-  var numero1 = prompt ("dime tu numero favorito");
+  var numero1 = Number(prompt ("dime tu numero favorito"));
   var numero2 = prompt ("dime tu segundo numero favorito");
+  numero2 =Number(numero2); //convierte texto a numero.
   document.write ("<br>");
+  var resultado = 
   document.write ("el resultado de la suma es "+numero1+numero2);
     </script>
     
