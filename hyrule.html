@@ -3,23 +3,26 @@
         <h1>Mi quinta Web</h1>
     <script>
 
-      var edad = prompt ("¿cuantos años tienes? ");
-      edad = Number(edad);
-    if (edad == 18)
+      var mes = prompt ("¿que mes es? ");
+      mes = Number(mes);
+    if (mes < 4)
     {
-      document.write("estas al limite!");
+      document.write("el invierno esta aqui");
       }
         else  {
-        if(edad > 18)
+        if( 3 < mes < 7)
            {
-             document.write("ya estas listo!");
+             document.write("la primavera ha llegado");
         }
         else
+              if( 6 < mes < 10 )
         {
-               document.write("aun eres joven!");
-               document.write("<br>Te faltan: ");
-               document.write(18-edad);
-               document.write(" años para estar listo.<br>");
+               document.write("Verano de mar");
+        }
+              else
+              if( 9 < mes < 13 )
+        {
+               document.write("otoño del terror");
         }
     }
     </script>
