@@ -2,24 +2,23 @@
     <body>
         <h1>Mi sexta Web</h1>
     <script>
- var x = prompt ("Escribe un numero del 1 al 100")
+ var numero = prompt ("Escribe un numero del 1 al 100")
+        numero = Number(numero
       var i = 0;
         var suma = 0
-      if (x<1 || x >100) 
+      while (x<1 || x >100) 
               {
              document.write ("error, has introducido un numero incorrecto");
               }
-      else
-          {
+   
                 document.write ("estas son todas las sumas");         
 
                 for (i = 1;  i <= numero; i++)
                       {
                           suma=suma+i
-                        document.write ("<br>");
-                        document.write (la suma de todos los numeros introducidos entre 1 y " + i + " es " + suma);
+                        
+                        document.write ("<br>la suma de todos los numeros introducidos entre 1 y " + i + " es " + suma);
                       }
-          }
           document.write (la suma total los numeros introducidos entre 1 y " + numero + " es " + suma);
     </script>
     </body>
