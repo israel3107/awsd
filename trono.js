@@ -1,4 +1,4 @@
-fuction trono(min,max) {
+function trono(min,max) {
 var numero;
 do {
   numero = prompt("ingresar un numero entre " + min + " y " + max + ":");
