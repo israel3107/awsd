@@ -5,13 +5,13 @@ function asistente (numero)
     
 
 
-if ( numero % i == 0 )
-{
-  par = false;
-  return primo;
-}
-  
-
-    par = true;
-    return par;
+    if ( numero % i == 0 )
+          {
+          par = false;
+          return primo;
+          }
+    else  {
+          par = true;
+          return par;
+          }
   }
