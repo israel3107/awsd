@@ -1,8 +1,7 @@
 function asistente (numero)
   {
     var par;
-  
-    
+     
     if ( numero % 2 == 0 )
           {
           par = true;
