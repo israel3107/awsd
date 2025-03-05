@@ -1,25 +1,25 @@
+
 <html>
   <head>
-    <title>pagina para comprobar tu destino</title>   
+    <title>pagina para comprobar tu vida</title>   
   </head>
   <body>
       <script src="trono.js"></script>
-    <script src="asistente.js"> </script>
+    <script src="asistente.js"></script>
     <script>
-      var numero
-  numero = trono (2,777);
-    document.write("<h1> mi pagina web para calcular si " +numero+ " es un numero primo </h1>");
-      var primo;
-      primo = arcangel(numero);
-      if ( primo == true )
-      {
-        document.write (numero + " es un numero primo.");
-      }
+      var numero;
+      numero = trono (1,27);
+     document.write ("<h1> Calculo si " +numero+ " es par o impar </h1>");
+      var par;
+      par = asistente (numero);
+      if ( par == true )
+        {
+        document.write( numero + " PAR ");
+        }
       else
       {
-        document.write(numero + " no es un numero primo.");
+        document.write (numero + " IMPAR ");
       }
     </script>
-    
   </body>
 </html>
