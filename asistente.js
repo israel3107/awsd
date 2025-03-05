@@ -1,9 +1,9 @@
 function asistente (numero)
   {
     var par;
-    var i = 2;
+  
     
-    if ( numero % i == 0 )
+    if ( numero % 2 == 0 )
           {
           par = true;
           return par;
