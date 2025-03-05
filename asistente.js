@@ -1,14 +1,13 @@
 function asistente (numero)
   {
-    var par;
-     
+         
     if ( numero % 2 == 0 )
           {
-          par = true;
-          return par;
+          
+          return true;
           }
     else  {
-          par = false;
-          return par;
+         
+          return false;
           }
   }
