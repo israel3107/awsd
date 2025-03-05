@@ -8,18 +8,23 @@
     <script src="asistente.js"></script>
     <script>
       var numero;
+      var i;
       numero = trono (1,27);
      document.write ("<h1> Calculo si " +numero+ " es par o impar </h1>");
       var par;
       par = asistente (numero);
-      if ( par == true )
+      for (i=2; i<numero; i=i+1)
         {
-        document.write( numero + " PAR ");
+          if ( par == true )
+            {
+            document.write( numero + " PAR ");
+            }
+          else
+          {
+            document.write (numero + " IMPAR ");
+           }
+
         }
-      else
-      {
-        document.write (numero + " IMPAR ");
-      }
     </script>
   </body>
 </html>
