@@ -12,9 +12,10 @@
       numero = trono (1,27);
      document.write ("<h1> Calculo si " +numero+ " es par o impar </h1>");
       var par;
-      par = asistente (numero);
-      for (i=2; i<numero; i=i+1)
+     
+      for (i=2; i<=numero; i=i+1)
         {
+           par = asistente (i);
           if ( par == true )
             {
             document.write( i + " PAR <br>");
