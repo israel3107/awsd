@@ -1,13 +1,15 @@
 <html>
   <head>
     <title>pagina de Gjallarhorn</title>
+    <link rel="stylesheet" href="estilo.css">
   </head>
     <body>
       <button> botón basico</button>
       <button id="botonInofensivo">botónInofensivo</button>
     <script>
-       alert ("llega el fin,esta comenzando el ragnarok");  
-      
+       alert ("llega el fin,esta comenzando el ragnarok"); 
+      document.getElementById('botonInofensivo').addEventListener('click', function () {
+        document.write("botón inofensivo clickeado");  });
     </script>
     </body>
 </html>
