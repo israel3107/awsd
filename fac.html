@@ -78,7 +78,12 @@
     <script>
         // Declaramos las variables que usaremos globalmente
         var numero, mensajeDiv;
-         var primo;
+        var factorial = 1;
+                for (i = 1;  i <= numero; i++)
+                      {
+                          factorial = factorial * i;
+                        document.write("<br> El facto de " + i + " es " + factorial);
+                      }
      
 
         // Esperamos a que se haga clic en el botón
@@ -91,13 +96,13 @@
          primo = arcangel(numero);
             // Si el usuario escribió algo, saludamos
          // Si el usuario escribió algo, saludamos
-            if (primo) {
-                mensajeDiv.textContent = ("¡Hola, " + numero + "!ES PRIMO 👋");
-            } 
-            // Si el campo está vacío, le pedimos que escriba su nombre
-            else {
-                mensajeDiv.textContent = ("¡Hola, " + numero + "!no ES PRIMO 👋");
-                 } 
+            for (i = 1;  i <= numero; i++)
+                      {
+                          factorial = factorial * i;
+                        document.write("<br> El facto de " + i + " es " + factorial);
+                      }
+        
+        
         });
     </script>
 </body>
