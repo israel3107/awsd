@@ -6,6 +6,11 @@
    <h2> MI PRIMER OBJETO:</h2>
    <button onclick="persona.saludar()"> SALUDAR</button>
    <div id="resultado-persona"> </div>
+  
+   <h> MI SEGUNDO OBJETO: COCHE:</h2>
+   <button onclick="coche.arrancar()"> ARRANCAR</button>
+   <button onclick="coche.parar()"> PARAR</button>
+   <div id="resultado-coche">  </div>  
 
   <script>
     const persona =
@@ -27,6 +32,19 @@
           modelo: "LEON",
           año: 2020,
           encendido: false,
+             if ( this.encendido = false)
+                {
+                  this.encendido = true;
+                  return " El coche está encendido";
+                }
+            
+          },
+          parar (){
+            if ( this.encendido = true)
+                {
+                  this.encendido = false;
+                  return " El coche está parado";
+                }
       } 
   </script>
 </body>
