@@ -3,6 +3,10 @@
   <title>Pagina con ejemplos de objetos en javascipt</title>
 </head>
 <body>
+   <h2> MI PRIMER OBJETO:</h2>
+   <button onclick="persona.saludar()"> SALUDAR</button>
+   <div id="resultado-persona"> </div>
+
   <script>
     const persona =
       {
@@ -14,11 +18,14 @@
         estado_civil: "necesitado",
         signo_zodiacal: "leo",
         saludar() {
-          console.log ("hola a todos");
+         const output = document.getElementById('resultado-persona');
+            output.innerHTML = "HOLA ${this.nombre} tengo ${this.edad}"; 
         }
+        
       };
     console.log(persona.nombre);
     console.log(persona.edad);
+    
   </script>
 </body>
 
